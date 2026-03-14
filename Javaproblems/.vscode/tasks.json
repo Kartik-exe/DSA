@@ -1,0 +1,46 @@
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Java (DSA)",
+//       "type": "shell",
+//       "command": "cmd",
+//       "args": [
+//         "/c",
+//         "javac Javaproblems.java && Javaproblems Basics < input.txt > output.txt"
+//       ],
+//       "options": {
+//         "cwd": "E:\\DSA\\Javaproblems\\Solution.java" 
+//       },
+//       "group": {
+//         "kind": "build",
+//         "isDefault": true
+//       }
+//     }
+//   ]
+// }
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Java (DSA)",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "javac Solution.java && java Solution < input.txt > output.txt"
+      ],
+      "options": {
+        "cwd": "E:\\DSA\\Javaproblems"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+
+// cmd to run the programm is: Ctrl + Shift + B
