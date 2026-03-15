@@ -14,6 +14,6 @@ public class TreeSet {
         treeSet.add("Meow");
         treeSet.add("Bhow");
 
-        System.out.println(treeSet);
+        System.out.println(treeSet);  // Output: [Bhow, Cat, Dog, Meow]
     }
 }
