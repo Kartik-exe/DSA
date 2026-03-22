@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class HashSets {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // DS that stores unique elements in any random order!!!
         HashSet<Integer> h = new HashSet<>();
@@ -29,7 +29,7 @@ public class HashSets {
 
         // var means Java automatically infer the type from the collection.
         // for-each loop iterates through each element of the HashSet one by one and prints them on separate lines
-        for(var num : hs){
+        for (var num : hs) {
             System.out.println(num);
         }
         // output:
@@ -37,7 +37,7 @@ public class HashSets {
         //2
 
         // Or else we can explicitly declare the type of num.
-        for(int num : hs){
+        for (int num : hs) {
             System.out.println(num);
         }
 

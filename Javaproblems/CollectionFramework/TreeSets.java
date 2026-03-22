@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 public class TreeSets {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // DS that stores unique elements in any sorted order!!!
         TreeSet<Integer> ts = new TreeSet<>();

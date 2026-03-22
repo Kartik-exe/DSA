@@ -3,7 +3,7 @@ package Javaproblems.CollectionFramework;
 import java.util.TreeMap;
 
 public class TreeMaps {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // (Key , Value)
         // Stores the sorted order KEYS

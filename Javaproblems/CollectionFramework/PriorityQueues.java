@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class PriorityQueues {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         //Stores elements and whenever we as for peek(), it gives us the smallest element!
         // That's why we call it Min Heap
@@ -24,7 +24,7 @@ public class PriorityQueues {
         p.offer(1);
         p.offer(5);
         p.offer(4);
-        while(!p.isEmpty()){
+        while (!p.isEmpty()) {
             System.out.println(p.peek());
             p.poll();
         }

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class LinkedLists {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // Adds elements from front and end as well
         LinkedList<Integer> l = new LinkedList<>();

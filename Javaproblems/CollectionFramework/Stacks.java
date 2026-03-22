@@ -3,7 +3,7 @@ package Javaproblems.CollectionFramework;
 import java.util.Stack;
 
 public class Stacks {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // LIFO -- Last in first out
         Stack<Integer> s = new Stack<>();

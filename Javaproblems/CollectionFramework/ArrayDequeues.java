@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 
 public class ArrayDequeues {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //FIFO: First In first out!!!
         ArrayDeque<Integer> ad = new ArrayDeque<>();
         ad.offer(1);
