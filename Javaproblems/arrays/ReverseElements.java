@@ -2,6 +2,8 @@ package Javaproblems.arrays;
 
 public class ReverseElements {
 
+    // Two pointer approach!!
+
     public void func(int[] arr, int n){
 
         int left = 0;
