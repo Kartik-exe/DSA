@@ -2,6 +2,8 @@ package Javaproblems.arrays;
 
 import java.util.Scanner;
 
+// Count Frequency in Array
+
 public class CountDigitsArrays {
 
     // array -> arr[];
