@@ -30,6 +30,15 @@ public class HashQuires {
         }
 
         //compute the number of quires
+        //(How many times does this number appear?)
+
+//    | Iteration | Condition Checked  | Q after check |
+//    | ------------------------------ | --------------|
+//    | 1         | 3 > 0 ✅           | Q → 2
+//    | 2         | 2 > 0 ✅           | Q → 1
+//    | 3         | 1 > 0 ✅           | Q → 0
+//    | 4         | 0 > 0 ❌           | stops
+
         int Q = sc.nextInt();
         while(Q-- > 0){
             int num = sc.nextInt();
